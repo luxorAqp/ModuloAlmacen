@@ -1,0 +1,95 @@
+*{
+    font-family: 'Poppins', sans-serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .bodyRegPerson{
+    display: flex;
+    height: 100vh ;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+ }
+ 
+ .containerRegPerson{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+ }
+ 
+ .containerRegPerson .titleRegPerson{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+ }
+ 
+ .containerRegPerson .titleRegPerson::before{
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background:linear-gradient(135deg, #71b7e6, #9b59b6) ;
+ }
+ 
+ .containerRegPerson form .detailsRegPerson {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin:  20px 0 12px 0;
+ }
+ 
+ form .detailsRegPerson .divRegPerson{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+ }
+ .detailsRegPerson .divRegPerson .spanRegPerson{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+ }
+ 
+ .detailsRegPerson .divRegPerson input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border:  1px solid #ccc; 
+    padding-left: 15px;
+    font-size: 16px  ;
+    border-bottom-width:2px ;
+    transition: all 0.3s ease;
+ }
+ 
+ .detailsRegPerson .divRegPerson input:focus,
+ .detailsRegPerson .divRegPerson input:valid{
+    border-color:#9b59b6 ;
+ 
+ }
+ form .generRegPerson .generTitleRegPerson{ 
+    font-size: 20px;
+    font-weight: 500;
+ }
+ 
+ form .generRegPerson .categoryGenerRegPerson{
+     display: flex;
+     width: 80%;
+     margin: 14px 0;
+     justify-content: space-between  ;
+ }
+ 
+ .generRegPerson .categoryGenerRegPerson section{
+     display: flex;
+ }
+ 
+ .generRegPerson .categoryGenerRegPerson .dot{
+    height: 18px;
+    width: 18px;
+    background: rgb(255, 0, 0);
+    border-radius: 50%;
+ }
+ 

@@ -1,0 +1,58 @@
+.bodyCreatePerson{
+    width: 97vw; 
+ }
+ .containerCreatePerson{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 10px 0; 
+ }
+ 
+ .itemCreatePerson{
+  
+ }
+ .mainCreatePerson{
+ 
+ }
+ 
+ .spanSearchPerson{
+    margin: 20px;
+ }
+ .inputSearchUser{
+    width: 290px;
+    height: 35px;
+    border-radius: 50px;
+ }
+ input{
+    
+ }
+ 
+ .buttomCreatePerson{
+    background: #4568dc; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4568dc, #b06ab3); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4568dc, #b06ab3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    display: block;
+    width: 150%;
+    margin: 10px auto;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+ 
+ .buttomSearchPerson{
+    background: #4568dc; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4568dc, #b06ab3); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4568dc, #b06ab3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    width: 150px;
+    margin: 10px 20px;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+ }
