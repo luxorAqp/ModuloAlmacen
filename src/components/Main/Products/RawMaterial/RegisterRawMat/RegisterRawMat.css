@@ -1,0 +1,94 @@
+*{
+    font-family: 'Poppins', sans-serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .bodyRegRawMat{
+    display: flex;
+    height: 100vh ;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+ }
+ 
+ .containerRegRawMat{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+ }
+ 
+ .containerRegRawMat .titleRegRawMat{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+ }
+ 
+ .containerRegRawMat .titleRegRawMat::before{
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background:linear-gradient(135deg, #71b7e6, #9b59b6) ;
+ }
+ 
+ .containerRegRawMat form .detailsRegRawMat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin:  20px 0 12px 0;
+ }
+ 
+ form .detailsRegRawMat .divRegRawMat{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+ }
+ .detailsRegRawMat .divRegRawMat .spanRegRawMat{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+ }
+ 
+ .detailsRegRawMat .divRegRawMat input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border:  1px solid #ccc; 
+    padding-left: 15px;
+    font-size: 16px  ;
+    border-bottom-width:2px ;
+    transition: all 0.3s ease;
+ }
+ 
+ .detailsRegRawMat .divRegRawMat input:focus,
+ .detailsRegRawMat .divRegRawMat input:valid{
+    border-color:#9b59b6 ;
+ 
+ }
+ form .generRegRawMat .generTitleRegRawMat{ 
+    font-size: 20px;
+    font-weight: 500;
+ }
+ 
+ form .generRegRawMat .categoryGenerRegRawMat{
+     display: flex;
+     width: 80%;
+     margin: 14px 0;
+     justify-content: space-between  ;
+ }
+ 
+ .generRegRawMat .categoryGenerRegRawMat section{
+     display: flex;
+ }
+ 
+ .generRegRawMat .categoryGenerRegRawMat .dot{
+    height: 18px;
+    width: 18px;
+    background: rgb(255, 0, 0);
+    border-radius: 50%;
+ }

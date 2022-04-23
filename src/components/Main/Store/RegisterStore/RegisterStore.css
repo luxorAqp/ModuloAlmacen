@@ -1,0 +1,94 @@
+*{
+    font-family: 'Poppins', sans-serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .bodyRegStore{
+    display: flex;
+    height: 50vh ;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+ }
+ 
+ .containerRegStore{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+ }
+ 
+ .containerRegStore .titleRegStore{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+ }
+ 
+ .containerRegStore .titleRegStore::before{
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background:linear-gradient(135deg, #71b7e6, #9b59b6) ;
+ }
+ 
+ .containerRegStore form .detailsRegStore {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin:  20px 0 12px 0;
+ }
+ 
+ form .detailsRegStore .divRegStore{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+ }
+ .detailsRegStore .divRegStore .spanRegStore{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+ }
+ 
+ .detailsRegStore .divRegStore input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border:  1px solid #ccc; 
+    padding-left: 15px;
+    font-size: 16px  ;
+    border-bottom-width:2px ;
+    transition: all 0.3s ease;
+ }
+ 
+ .detailsRegStore .divRegStore input:focus,
+ .detailsRegStore .divRegStore input:valid{
+    border-color:#9b59b6 ;
+ 
+ }
+ form .generRegStore .generTitleRegStore{ 
+    font-size: 20px;
+    font-weight: 500;
+ }
+ 
+ form .generRegStore .categoryGenerRegStore{
+     display: flex;
+     width: 80%;
+     margin: 14px 0;
+     justify-content: space-between  ;
+ }
+ 
+ .generRegStore .categoryGenerRegStore section{
+     display: flex;
+ }
+ 
+ .generRegStore .categoryRegStore .dot{
+    height: 18px;
+    width: 18px;
+    background: rgb(255, 0, 0);
+    border-radius: 50%;
+ }
