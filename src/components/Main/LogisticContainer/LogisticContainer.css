@@ -1,0 +1,76 @@
+:root{
+    --clr-user: #419df3;
+    --clr-store: #af45c4;
+    --clr-products: #5f065b;
+    --clr-bg: #001414;
+    --font-size: 22px;
+    
+ 
+    
+ }
+ div, button {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .logistic-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+ }
+ 
+ .logistic-item{
+    width: 100px;
+    margin: 3rem;
+ }
+ 
+ 
+ .logistic-button {
+    width: 140px;
+    height: 150px;
+    background: white;
+    
+    font-family: "Balsamiq Sans";
+    font-size: var(--font-size);
+    cursor: pointer;
+    border: var(--clr-bg) 0.125em solid;
+    
+    border-radius: 0.65em;
+   
+ 
+ }
+ 
+ *,
+ *::after,
+ *::before{
+    box-sizing: border-box;
+ }
+ 
+ .logistic-button.users{
+    text-shadow: 0 0 .20em rgba(246, 248, 250, 0.467), 0 0 0.1em var(--clr-user);
+    box-shadow: inset 0 0 .5em var(--clr-user),
+    0 0 1.0em var(--clr-user);
+    background: rgb(247, 244, 244);
+    font-weight:bold;
+ }
+ 
+ .logistic-button.store{
+    text-shadow: 0 0 .20em #fff7, 0 0 0.1em var(--clr-store);
+    box-shadow: inset 0 0 .5em var(--clr-store),
+    0 0 1.0em var(--clr-store);
+    background: rgb(247, 244, 244);
+    font-weight:bold;
+ }
+ 
+ 
+ .logistic-button.product{
+    text-shadow: 0 0 .20em #fff7, 0 0 0.1em var(--clr-products);
+    box-shadow: inset 0 0 .5em var(--clr-products),
+    0 0 1.0em var(--clr-products);
+    background: rgb(247, 244, 244);
+    font-weight:bold;
+ }

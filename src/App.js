@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
+import HeaderLogin from './components/Header/HeaderLogin/HeaderLogin';
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import ModalLogin from './modals/ModalLogin/ModalLogin';
+import LogisticContainer from './components/Main/LogisticContainer/LogisticContainer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+      <BrowserRouter>
+      <HeaderLogin/>
+        <Routes>
+          
+          <Route path = '/main' element={<LogisticContainer/>}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

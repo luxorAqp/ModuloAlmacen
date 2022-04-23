@@ -1,0 +1,111 @@
+:root{
+    /* -------- GENERAL STYLES -------- */
+     --text-color-up: hsl(163, 72%, 41%);
+     --text-color-down: hsl(356, 69%, 56%);
+     --border-top-users: hsl(208, 92%, 53%);
+     --border-top-store: hsl(203, 89%, 53%);
+     --border-top-products: hsl(37, 97%, 70%);
+     --border-top-products2: hsl(329, 70%, 58%);
+     --border-top-free: hsl(348, 97%, 39%);
+     --toogle-background-1: hsl(210, 78%, 56%);
+     --toogle-background-2: hsl(146, 68%, 55%);
+     
+  
+  
+  
+     /* -------- DARK MODE -------- */
+  
+     --background-body-dark: hsl(230, 17%, 14%);
+     --background-body-top-dark: hsl(232, 19%, 15%);
+     --background-card-dark: hsl(228, 34%, 66%);
+     --text-color-general-dark: hsl(0, 0%, 100%);
+     --text-color-white-dark: hsl(0,0%,100%);
+  
+     
+     /* -------- LIGHT MODE -------- */
+     --toogle-buttom: hsl(230, 22%, 74%);
+     --background-body-light: hsl(0, 0%, 100%);
+     --background-body-top-light: hsl(0, 0%, 100%);
+     --background-card-light: hsl(227, 47%, 96%);
+     --text-color-general-light: hsl(230, 17%, 14%);
+     --text-color-white-light: hsl(228,12%,44%);
+   }
+
+
+   /* ---------HEADER--------- */
+ 
+.header-container{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header-item{
+
+}
+
+.buttom-login{
+    border:3px solid rgba(100,100,100,0.1);
+    width: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+    background-size: 300%;
+    background-image: linear-gradient(to left, #00B7DA, #161569, #00B7DA);
+    margin: 15px 20px 0 0;
+}
+
+.buttom-login:hover{
+    background-position: right;
+}
+.hr-separator{
+    
+    opacity: 0.5;
+    height: 10px;
+    background-color: rgb(47, 127, 180);
+    /* border-radius: 50px; */
+  }
+
+.hr-separator{
+    border-color: var(--text-color-general-dark);
+} 
+
+.container-toggle{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+.title-theme{
+    font-size: 15px;
+    font-weight: 500;
+}
+.toggle{
+    width: 50px;
+    height:25px;
+    border-radius: 25px;
+    padding: 3px;
+}
+
+.toggle-circle{
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.title-theme{
+     color: var(--text-color-general-dark); 
+    
+}
+
+.toggle{
+    background-image: linear-gradient(to right, var(--toogle-background-1), var(--toogle-background-2));
+}
+
+.toggle-circle{
+    background-color: var(--background-body-dark);
+}
