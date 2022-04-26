@@ -1,4 +1,4 @@
-.modal-users {
+.modal-manausers {
   position: fixed;
   z-index: 999;
   top: 0;
@@ -12,11 +12,11 @@
   align-items: center;
 }
 
-.modal-users.is-open {
+.modal-manausers.is-open {
   display: flex;
 }
 
-.modal-container-users {
+.modal-container-managusers {
   position: flex;
   padding: 3rem 1rem 3rem 1rem;
   min-width: 320px;
@@ -148,7 +148,7 @@ input:focus ~ .bar::before {
   width: 102%;
 }
 
-.butt-open-modal-users {
+.butt-register {
   background: #4568dc; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,

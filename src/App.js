@@ -13,6 +13,8 @@ import RegisterRawMat from "./components/Main/Products/RawMaterial/RegisterRawMa
 import ToPerson from "./components/Main/AssingProduct/ToPerson/ToPerson";
 import DetailToStore from "./components/Main/AssingProduct/ToStore/DetailToStore/DetailToStore";
 import ModalUsers from "./modals/ModalUsers/ModalUsers";
+import UserPerson from "./components/Main/Users/UserPerson/UserPerson";
+import GiveProducts from "./components/Main/Users/GiveProducts/GiveProducts";
 
 function App() {
   return (
@@ -21,7 +23,11 @@ function App() {
         <ModalLogin />
         <HeaderLogin />
         <ModalUsers />
+
         {/* 
+        <RegisterUser />
+        <RegisterPerson />
+        <RegisterStore />
         <RegisterUser/>
         <CreateUser/>
         <RegisterPerson/>
@@ -40,6 +46,15 @@ function App() {
         </Routes>
         <Routes>
           <Route path="/registerUser" element={<RegisterUser />} />
+        </Routes>
+        <Routes>
+          <Route path="/UserPerson" element={<UserPerson />} />
+        </Routes>
+        <Routes>
+          <Route path="/CreateUsers" element={<CreateUser />} />
+        </Routes>
+        <Routes>
+          <Route path="/GiveProducts" element={<GiveProducts />} />
         </Routes>
       </BrowserRouter>
     </div>
